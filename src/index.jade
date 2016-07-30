@@ -1,0 +1,160 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title What do *you* know?
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+    article
+
+      section
+        h1
+          | What do 
+          strong you 
+          | know?
+
+      section.yellow-bg
+        svg(width="1000" height="500")
+          circle.lips(cx="500" cy="250" r="200" opacity=".95")
+          circle.smurf(cx="440" cy="200" r="50" opacity=".95")
+
+      section.yellow-bg
+        svg(width="1000" height="500")
+          circle.lips(cx="660" cy="250" r="200" opacity=".95")
+          circle.smurf(cx="340" cy="250" r="200" opacity=".95")
+      
+      section.yellow-bg
+        h1 Impostor Syndrome
+        p
+          | An inability to internalize accomplishments
+          br
+          | When we succeed, we dismiss it as luck
+          br
+          | Common in tech, particularly among high achievers
+
+      section.yellow-bg
+        h1 Why do we all feel like we suck?
+
+      section.yellow-bg#features-slide
+        ul.features
+          li CSS animations
+          li Canvas
+          li SVG
+          li WebGL
+          li Video / Audio API's
+          li WebRTC
+          li IndexedDB
+          li Service Worker
+          li.divider
+          li Mobile devices
+          li Browser quirks
+          li Feature detection
+          li Developer tools
+          li Debugging
+          li Cordova (Mobile apps)
+          li Electron (Desktop apps)
+          li.divider
+          li SASS
+          li Babel
+          li Underscore / Lodash
+          li Moment
+          li d3
+          li Backbone
+          li Angular
+          li React
+          li Ember
+          li Flux
+          li GraphQL
+          li.divider
+          li Node
+          li Express
+          li Socket.io
+          li Grunt / Gulp
+          li Isomorphic apps
+          li Unit Testing
+          li.divider
+        svg(width="1000" height="500")
+          circle.lips(cx="500" cy="250" r="200" opacity=".95")
+          circle.feature.delay-1(cx="365" cy="200" r="50")
+          circle.feature.delay-2(cx="565" cy="125" r="50")
+          circle.feature.delay-3(cx="635" cy="210" r="50")
+          circle.feature.delay-4(cx="435" cy="275" r="50")
+          circle.feature.delay-5(cx="360" cy="290" r="50")
+          circle.feature.delay-6(cx="425" cy="375" r="50")
+          circle.feature.delay-7(cx="625" cy="310" r="50")
+          circle.feature.delay-8(cx="550" cy="260" r="50")
+          circle.feature.delay-9(cx="450" cy="180" r="50")
+          circle.feature.delay-10(cx="525" cy="185" r="50")
+          circle.feature.delay-11(cx="525" cy="395" r="50")
+          circle.feature.delay-12(cx="525" cy="315" r="50")
+          circle.feature.delay-13(cx="590" cy="365" r="50")
+          circle.feature.delay-14(cx="495" cy="100" r="50")
+          circle.feature.delay-15(cx="410" cy="135" r="50")
+          circle.feature.delay-16(cx="480" cy="250" r="50")
+          circle.feature.delay-17(cx="585" cy="195" r="50")
+          circle.feature.delay-18(cx="470" cy="345" r="50")
+
+      section.yellow-bg
+        h1 Impostor Syndrome
+        p
+          | We overestimate others breadth of knowledge
+          br
+          | We overestimate others depth of knowledge
+        p
+          | We constantly feel behind our peers and the industry
+          br
+          | We fight the uphill battle to learn all of the web
+
+      section.bg( style="background-image: url(images/jake.jpg)" )
+        .pad-lg
+          p
+            strong @jaffathecake
+          p
+            | When I left university, I felt I knew all of the web platform.
+            br
+            | Partially because the web was simpler, but also I was an arrogant little shit who didn't know how much I didn't know.
+          p
+            | Is the web platform too big? For one person, yes. Is it a problem?
+            br
+            | No. No one can be an expert in the whole web.
+      
+      section.bg( style="background-image: url(images/ppk.jpg)" )
+        .pad-lg
+          p
+            strong @ppk
+          p
+            | The innovation machine is running at full speed in the wrong direction. We need a break.
+            | We need an opportunity to learn to use the features we already have responsibly — without tools!
+            br
+            | Also, we need the time for a fundamental conversation about where we want to push the web forward to.
+            | A year-long moratorium on new features would buy us that time.
+
+      section.yellow-bg
+        h1 Todos
+        p
+          | Take my advice
+          br
+          | Take Jake's advice
+          br
+          | Teach others about what you know
+          br
+          | Have opinions and back your intuition
+          br
+          | Work life balance
+
+      section.bg( style="background-image: url(images/joss.jpg)" )
+        .pad-lg
+          p
+            strong @joshuapaling
+          p
+            a(href="https://rubyconf.eventer.com/rubyconf-australia-2015-1223/feeling-like-a-better-developer-aka-overcoming-impostor-syndrome-by-joss-paling-1729")
+              | Feeling like a better developer
+
+      section
+        h1 Thanks
+        p @markbrown4
+        img(src="images/i9dev-logo.svg" width="150")
+
+    script(src='build/build.js')
